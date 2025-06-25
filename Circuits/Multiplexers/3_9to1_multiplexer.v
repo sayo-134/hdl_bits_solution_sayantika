@@ -13,7 +13,7 @@ module top_module(
             4'd7: out = g;
             4'd8: out = h;
             4'd9: out = i;
-            default: out = 1'b1;
+            default: out = 16'hffff;
         endcase
     end
 endmodule

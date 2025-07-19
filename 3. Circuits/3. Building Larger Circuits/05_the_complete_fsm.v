@@ -7,7 +7,7 @@ module top_module (
     input done_counting,
     output done,
     input ack );
-    parameter a=0,b=1,c=2,d=3,e=4,f=5,g=6,h=7,i=9,j=10;
+    parameter a=0,b=1,c=2,d=3,e=4,f=5,g=6,h=7,i=8,j=9;
     reg [3:0] state, next_state;
     always @(posedge clk) begin
         if (reset) state <= a;
